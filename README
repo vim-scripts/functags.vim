@@ -1,0 +1,15 @@
+This is a mirror of http://www.vim.org/scripts/script.php?script_id=78
+
+This script generates menu entries for each C/C++ function definition within the actual edited C/C++ file.
+After executing it, you can move to any of the functions by selecting them via menu.
+
+- adds a menu entry under a main menu 'Proj'
+- creates a file cfunctags.vim as script for generating the menu entries
+
+BUGS: does not handle references ('&') and destructors (~) correctly.
+           If anyone would add these, please let me know.
+
+The script is just quick and (hope not very) dirty written, but working (only short tests up to now)
+under GVIM 5.8, NT4.0, Novell network
+
+
